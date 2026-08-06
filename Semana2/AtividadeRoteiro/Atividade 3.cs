@@ -1,7 +1,7 @@
 // See https://aka.ms/new-console-template for more information
 class Atividade3
 {
-     static int acharMedia(int[] vetor, int valorAachar)
+     static int AcharMedia(int[] vetor, int valorAachar)
     {
        int posicaoAchada = -1;
 
@@ -25,7 +25,7 @@ class Atividade3
         Console.WriteLine("Digite o valor do numero a achar: ");
         int valorAachar = int.Parse(Console.ReadLine()!);
 
-        int posicaoAchada = acharMedia(valores, valorAachar);
+        int posicaoAchada = AcharMedia(valores, valorAachar);
 
         if (posicaoAchada != -1)
         {
