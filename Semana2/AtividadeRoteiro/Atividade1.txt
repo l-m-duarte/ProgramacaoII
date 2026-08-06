@@ -1,0 +1,22 @@
+inteiro vetor = [1,2,3,4,5]
+
+imprima(“Digite o valor do nº a achar: ”)
+inteiro valorAachar = read()
+
+inteiro posicaoAchada = 0
+
+para (i = 1, vetor.Length) faça
+{
+	se (vetor[i] == valorAachar)
+	{
+		posicaoAchada = i
+	}
+}
+
+se (valorAchado != -1)
+{
+	imprima(“O valor ” valorAachar “ foi achado na posição ”, posicaoAchada)
+}
+senao{
+	imprima(“O valor ” valorAachar “ não existe no vetor”)
+}
