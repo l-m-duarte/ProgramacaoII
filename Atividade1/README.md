@@ -1,1 +1,0 @@
-encontrar valor num vetor
