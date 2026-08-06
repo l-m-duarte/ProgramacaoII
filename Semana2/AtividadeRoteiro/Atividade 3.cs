@@ -1,5 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-class Program
+// See https://aka.ms/new-console-template for more information
+class Atividade3
 {
      static int acharMedia(int[] vetor, int valorAachar)
     {
