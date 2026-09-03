@@ -18,9 +18,9 @@ class Atividade4
     static void Main()
     {
         Console.Write("Tamanho do vetor: ");
-        int n = int.Parse(Console.ReadLine());
+        int tamanho = int.Parse(Console.ReadLine());
 
-        double[] vetor = new double[n];
+        double[] vetor = new double[tamanho];
         for (int i = 0; i < vetor.Length; i++)
         {
             Console.Write($"Valor {i}: ");
