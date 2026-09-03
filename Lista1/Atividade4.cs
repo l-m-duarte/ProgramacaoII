@@ -1,0 +1,39 @@
+using System;
+
+class Atividade4
+{
+    static double encontrarMenor(double[] vetor)
+    {
+        double menor = vetor[0];
+        for (int i = 1; i < vetor.Length; i++)
+        {
+            if (vetor[i] < menor)
+            {
+                menor = vetor[i];
+            }
+        }
+        return menor;
+    }
+
+    static void Main()
+    {
+        Console.Write("Tamanho do vetor: ");
+        int n = int.Parse(Console.ReadLine());
+
+        double[] vetor = new double[n];
+        for (int i = 0; i < vetor.Length; i++)
+        {
+            Console.Write($"Valor {i}: ");
+            vetor[i] = double.Parse(Console.ReadLine());
+        }
+
+        double menor = encontrarMenor(vetor);
+        
+        Console.WriteLine("\nVetor informado:");
+        for (int i = 0; i < vetor.Length; i++)
+        {
+            Console.WriteLine($"{vetor[i]}");
+        }
+        Console.WriteLine($"O menor valor: {menor}");
+    }
+}
