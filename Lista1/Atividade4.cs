@@ -1,6 +1,6 @@
 using System;
 
-class Atividade4
+class Atividade3
 {
     static double encontrarMenor(double[] vetor)
     {
@@ -23,17 +23,17 @@ class Atividade4
         double[] vetor = new double[tamanho];
         for (int i = 0; i < vetor.Length; i++)
         {
-            Console.Write($"Valor {i}: ");
+            Console.Write($"{i}: ");
             vetor[i] = double.Parse(Console.ReadLine());
         }
 
-        double menor = encontrarMenor(vetor);
+        double maior = encontrarMenor(vetor);
         
-        Console.WriteLine("Vetor:");
+        Console.WriteLine("Vetor completo:");
         for (int i = 0; i < vetor.Length; i++)
         {
             Console.WriteLine($"{vetor[i]}");
         }
-        Console.WriteLine($"O menor valor: {menor}");
+         Console.WriteLine($"O menor valor: {maior}");
     }
 }
