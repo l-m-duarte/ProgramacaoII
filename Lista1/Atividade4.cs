@@ -27,13 +27,13 @@ class Atividade3
             vetor[i] = double.Parse(Console.ReadLine());
         }
 
-        double maior = encontrarMenor(vetor);
+        double menor = encontrarMenor(vetor);
         
         Console.WriteLine("Vetor completo:");
         for (int i = 0; i < vetor.Length; i++)
         {
             Console.WriteLine($"{vetor[i]}");
         }
-         Console.WriteLine($"O menor valor: {maior}");
+         Console.WriteLine($"O menor valor: {menor}");
     }
 }
