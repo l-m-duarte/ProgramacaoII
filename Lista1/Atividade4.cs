@@ -29,7 +29,7 @@ class Atividade4
 
         double menor = encontrarMenor(vetor);
         
-        Console.WriteLine("\nVetor informado:");
+        Console.WriteLine("Vetor:");
         for (int i = 0; i < vetor.Length; i++)
         {
             Console.WriteLine($"{vetor[i]}");
