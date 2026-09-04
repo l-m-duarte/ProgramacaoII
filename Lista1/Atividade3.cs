@@ -17,13 +17,13 @@ class Atividade3
 
     static void Main()
     {
-        Console.Write("Tamanho do vetor: ");
+        Console.WriteLine("Tamanho do vetor: ");
         int tamanho = int.Parse(Console.ReadLine());
 
         double[] vetor = new double[tamanho];
         for (int i = 0; i < vetor.Length; i++)
         {
-            Console.Write($"Valor {i}: ");
+            Console.Write($"{i}: ");
             vetor[i] = double.Parse(Console.ReadLine());
         }
 
