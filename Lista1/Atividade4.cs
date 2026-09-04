@@ -17,7 +17,7 @@ class Atividade4
 
     static void Main()
     {
-        Console.Write("Tamanho do vetor: ");
+        Console.WriteLine("Tamanho do vetor: ");
         int tamanho = int.Parse(Console.ReadLine());
 
         double[] vetor = new double[tamanho];
