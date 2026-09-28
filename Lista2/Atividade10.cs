@@ -1,7 +1,7 @@
 class Program
 {
     public static void Main(){
-        int[,] mar = new int[105, 105]; //limite grande para garantir o tamanho das coordenadas
+        int[,] mar = new int[100, 100]; //limite grande para garantir o tamanho das coordenadas
         
         int n = int.Parse(Console.ReadLine());
         
